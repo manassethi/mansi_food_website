@@ -1,2 +1,3 @@
 # mansi_food_website
-Code for the front-end of a food-delivery website.
+With a focus on user-friendly navigation and a visually appealing design, my front-end aims to enhance the overall user experience.
+
