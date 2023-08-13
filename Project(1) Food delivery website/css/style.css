@@ -1,0 +1,297 @@
+/* CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+
+}
+/* CSS Variables*/
+:root{
+    --navbar-height: 59px;
+
+}
+/*Navigation Bar*/
+#navbar{
+    display: flex; /*flexbox*/
+    align-items: center;
+    
+
+
+
+
+}
+
+/*Navigation Bar: Logo and Image*/
+#logo{
+
+
+    margin:  20px;
+
+}
+html{
+    scroll-behavior:smooth;
+
+}
+
+/*Navigation Bar: List Styling*/
+#logo img{
+    height:100px;
+    margin: 4px 5px;
+
+
+}
+#navbar{
+    position:sticky;
+    top:0px;
+
+
+}
+#navbar ul{ 
+    display: flex;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+#navbar::before{
+    content:"";
+    background-color:black;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity:0.4;
+
+
+}
+#navbar ul li{
+    /*color:white;*/
+    list-style:none;
+    font-size:1.3rem;
+
+
+}
+#navbar ul li a{
+    color:white;
+
+    display: block;
+    padding:3px 18px;
+    border-radius:20px;
+    text-decoration:none;
+
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color:white;
+
+
+}
+/*Home Section*/
+#home{
+
+    display:flex;
+    flex-direction:column;
+    padding:3px 200px;
+    height:500px;
+
+    justify-content:center;
+    align-items:center;
+
+}
+
+#home::before{
+    content:"";
+    position:absolute;
+    top:0px;
+
+    background:url('/bhhope.jpg') no-repeat center center/cover;
+    height:650px;
+    width:100%;
+    z-index:-1;
+    opacity:1;
+
+
+
+
+
+    
+}
+#home h1{
+    color:white;
+    text-align:center;
+    font-family: 'Bree Serif', serif;
+
+}
+#home p{
+    color:white;
+    text-align:center;
+    font-size:1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+/*Services Section*/
+#services{
+
+    margin-left:30px;
+    
+    display:flex;
+
+}
+#services .box{
+    border:2px solid brown;
+    padding:34px;
+    margin:3px 6px;
+    border-radius:28px;
+    background:#f2f2f2;
+
+
+
+}
+#services .box img{ 
+    height:200px;
+    width:230px;
+
+    margin:auto;
+    display:block;
+
+
+
+
+}
+#services .box p{
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+#services{}
+#services{}
+#services{}
+
+
+/*Client Section*/
+#client-section{
+    height:320px;
+    padding:40px 0px;
+
+
+}
+
+#client-section::before{
+    content:"";
+    position:absolute;
+    background:url('/client.jpg') no-repeat center center/cover;
+    width:100%;
+    height:320px;
+    z-index:-1;
+    opacity:0.4;
+
+}
+
+#clients{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.client-item{
+    padding:34px;
+
+}
+#clients img{
+    height:150px;
+    width:160px;
+
+    
+
+
+}
+/*contact section*/
+#contact{
+    height: 500px;
+    padding:45px 0px;
+    
+}
+#contact{
+    position:relative;
+
+}
+#contact::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:500px;
+    z-index:-1;
+    opacity: 0.7;
+    background:url('/contact.jpg') no-repeat center center /cover;
+
+}
+#contact-box{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-bottom:34px;
+
+}
+#contact-box input, 
+#contact-box textarea{
+    width:100%;
+    padding:0.5rem;
+    border-radius:9px;
+    font-size:1.1rem;
+
+
+
+
+}
+#contact-box form{
+    width:40%;
+
+
+}
+#contact-box label{
+    font-size:1.3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+}
+
+footer{
+    background:black;
+    color:white;
+    padding: 9px 20px;
+
+}
+
+
+
+/*utility classes*/
+.h-primary{
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+    font-size:3.3rem;
+    padding:12px;
+    text-align:center;
+
+
+}
+.h-secondary{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size:1.8rem;
+    padding:12px;
+    text-align:center;
+
+
+}
+
+.btn{
+
+    padding:6px 20px;
+    border:2px solid white;
+    background-color:brown;
+    color:white;
+    margin:17px;
+    font-size:1.5rem;
+    border-radius:10px;
+    cursor:pointer;
+
+
+
+}
+
